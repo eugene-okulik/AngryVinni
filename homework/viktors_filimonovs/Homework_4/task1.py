@@ -9,7 +9,7 @@ my_dict = {
         'five': None
     },
     'set': {1, 3, 5, 'text', True, 3.4, 'tekst5'}
-    }
+}
 
 print("last tuple element: ", my_dict['tuple'][-1])
 
