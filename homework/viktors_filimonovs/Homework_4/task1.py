@@ -1,7 +1,13 @@
 my_dict = {
-    'tuple': (1, 4, 56, 3, 5, 56), 
-    'list': [1, None, 'tekst', False, 0.98, 4, 'tekst45'], 
-    'dict': {'first': 'one', 'second': 'two', 'third': 3, '4': True, 'five': None}, 
+    'tuple': (1, 4, 56, 3, 5, 56),
+    'list': [1, None, 'tekst', False, 0.98, 4, 'tekst45'],
+    'dict': {
+        'first': 'one',
+        'second': 'two',
+        'third': 3,
+        '4': True,
+        'five': None
+    },
     'set': {1, 3, 5, 'text', True, 3.4, 'tekst5'}
     }
 
