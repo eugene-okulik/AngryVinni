@@ -16,7 +16,7 @@ print("last tuple element: ", my_dict['tuple'][-1])
 my_dict['list'].append('last')
 del my_dict['list'][1]
 
-my_dict['dict']['i am a tuple'] = 'any value'
+my_dict['dict'][('i am a tuple',)] = 'any value'
 my_dict['dict'].pop('second')
 
 my_dict["set"].add('added element')
