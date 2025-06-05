@@ -1,6 +1,6 @@
 def process_result(text):
     number = int(text.split(":")[1].strip())
-    return f"{text.split(":")[0]}: {number + 10}"
+    return f"{text.split(':')[0]}: {number + 10}"
 
 
 texts = [
