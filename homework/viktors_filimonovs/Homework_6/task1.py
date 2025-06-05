@@ -13,4 +13,4 @@ for character in text:
         words.append(character)
 if curr_word:
     words.append(curr_word + "ing")
-print(' '.join(words))
+print(''.join(words))
