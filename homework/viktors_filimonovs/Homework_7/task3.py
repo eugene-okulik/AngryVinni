@@ -10,6 +10,5 @@ texts = [
     "результат: 2"
 ]
 
-
 for text in texts:
     print(process_result(text))
