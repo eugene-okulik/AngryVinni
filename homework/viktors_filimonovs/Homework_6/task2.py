@@ -1,3 +1,6 @@
+import heapq
+
+
 def fuzBuz():
     for number in range(1, 101):
         if number % 3 == 0 and number % 5 == 0:
@@ -16,8 +19,22 @@ def fuzBuzz():
         print(result or number)
 
 
+def fizzbuzz(n):
+    heap = list(range(1, n + 1))
+    heapq.heapify(heap)
+
+    while heap:
+        i = heapq.heappop(heap)
+        result = ('Fizz' * (i % 3 == 0) + 'Buzz' * (i % 5 == 0)) or str(i)
+        print(result)
+
+
 fuzBuz()
 
 print('=' * 30)
 
 fuzBuzz()
+
+print('=' * 30)
+
+fizzbuzz(258)
